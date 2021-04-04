@@ -1,0 +1,12 @@
+.Services {
+    font-size: 2rem;
+    color: black;
+    background: white;
+    min-height: 70vh;
+    clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 92%);
+    margin-top: 8rem;
+    padding: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

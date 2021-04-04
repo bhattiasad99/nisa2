@@ -1,0 +1,22 @@
+.ConsultantsList {
+    background: white;
+    margin-top: 25rem;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.Header {
+    margin-bottom: 2rem;
+    border-bottom: 1px dotted grey;
+    padding-bottom: 2rem;
+    width: 70rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 10px;
+    font-size: 3rem;
+}

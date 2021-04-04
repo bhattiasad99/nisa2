@@ -1,0 +1,10 @@
+.ListItem {
+    position: relative;
+    margin-right: 1rem;
+    color: rgba(73, 73, 73, 0.548);
+    transition: all 0.3s;
+}
+
+.ListItem:hover {
+    color: rgb(172, 88, 88)
+}

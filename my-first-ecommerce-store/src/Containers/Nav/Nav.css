@@ -1,0 +1,42 @@
+.Nav {
+    z-index: 1000000;
+    background: white;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    height: 7rem;
+    margin-top: 4rem;
+    opacity: 0.6;
+    transition: all 0.3s;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw
+}
+
+
+.Nav:hover {
+    opacity: 1
+}
+
+.Logo {
+    flex-grow: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+.LogoName {
+    margin-left: 1rem;
+}
+
+.LogoIcon {
+    color: rgb(199, 148, 148);
+    margin-right: 1rem
+}

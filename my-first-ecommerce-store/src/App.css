@@ -1,0 +1,15 @@
+.App {
+min-height: 200vh;
+}
+
+.Hidden {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    z-index: 100000;
+    opacity: 0.3;
+    transition: all 0.3s;
+}

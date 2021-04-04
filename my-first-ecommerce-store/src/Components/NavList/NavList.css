@@ -1,0 +1,30 @@
+.List {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.NavList {
+    display: flex
+}
+
+.Sign {
+    display: flex;
+    list-style: none;
+    letter-spacing: 2px;
+}
+
+.Sign__el {
+    margin-right: 1.5rem;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    color: black
+}
+
+.Sign__el:hover {
+    color: pink;
+    background-color: rgb(63, 95, 105);
+}
