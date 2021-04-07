@@ -28,3 +28,7 @@
     color: pink;
     background-color: rgb(63, 95, 105);
 }
+
+span {
+    display: flex;
+}

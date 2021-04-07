@@ -12,7 +12,10 @@ const Footer = (props) => {
                         <ul className={classes.QuickLinks__links}>
                             {props.links.map(el => {
                                 return (
-                                    <li className={classes.QuickLink} key={el.id}>{el.name}</li>
+                                    <li className={classes.QuickLink}
+                                        key={el.id}
+                                        onClick={el.actionClick}>
+                                        {el.name}</li>
                                 )
                             })}
                         </ul>
@@ -22,6 +25,7 @@ const Footer = (props) => {
                         <p className={classes.Address__para}>House Number 10, Adyala Road<br />Rawalpindi</p>
                     </div>
                 </div>
+                <div className={classes.ScrollToBtn} onClick={props.appointmentBtn} id='scrollTop'>Scroll To Top &uarr;</div>
             </footer>
         </Aux >
     )

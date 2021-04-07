@@ -74,3 +74,18 @@
     letter-spacing: 4px;
     padding-bottom: 2rem;
 }
+
+.ScrollToBtn {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: darkgrey;
+    transition: all 0.2s;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.ScrollToBtn:hover {
+    color: white;
+    background: #393c40;
+    cursor: pointer;
+}
